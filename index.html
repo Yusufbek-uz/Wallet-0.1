@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conventor</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Currency Converter</h1>
+        <input type="text" placeholder="Enter Amount..." id="inp"> 
+         <div class="selects-box">
+              <div>
+                 <p>From</p>
+                 <img src="https://flagcdn.com/24x18/uz.png" alt="" id="from-img">
+                 <select name="select-from" id="select-from">
+                        <option value=""> UZS</option>
+                 </select>
+              </div>
+              <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              <div>
+                <p>To</p>
+                <img src="https://flagcdn.com/24x18/ru.png" alt=""id="to-img">
+                <select name="select-to" id="select-to">
+                       <option value=""> UZS</option>
+                </select>
+             </div>
+         </div>
+         <h2 id="result">Result: <p id="p"></p></h2>
+         <button id="btn">Get Exchange Rate</button>
+   </div>
+    <script src="./script.js"></script>
+</body>
+</html>
